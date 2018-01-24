@@ -48,7 +48,8 @@ with open("AFC_Championship_Comments_2018.csv", "w") as output:
 
         # Parse Body
         body = comment.body.replace('\n',' ').replace(",",' ')
-
+        print(str(comment.id))
+        print(str(body))
         row.append(str(comment.id))
         row.append(mydate)
         row.append(mytime)
