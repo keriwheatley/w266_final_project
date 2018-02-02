@@ -3,6 +3,8 @@
 # Data
 *.csv
 *.pkl
+*.pickle
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -17,3 +19,4 @@ __pycache__/
 # Config Files
 *.config
 *.conf
+
