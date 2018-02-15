@@ -136,7 +136,9 @@ def pull_comments_and_save(submission_id):
 
 games = pd.read_csv('Game_Thread_List_Only.csv')
 games = games.sort_values('Number of Comments')
-threads = games['Thread ID'].tolist()
+# threads = games['Thread ID'].tolist()
+
+threads = ['7vad8n','7vb5tk']
 
 for submissionid in threads:
     try:
