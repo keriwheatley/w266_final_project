@@ -43,14 +43,6 @@ usernames = ['cardinals_pbp',
     'ravens_pbp',
     'texans_pbp']
 
-usernames = ['bucs_pbp',
-             'panthers_pbp',
-             'jaguars_pbp',
-             'ravens_pbp',
-             'texans_pbp']
-
-
-
 def get_all_tweets(screen_name):
     #Twitter only allows access to a users most recent 3240 tweets with this method
 
